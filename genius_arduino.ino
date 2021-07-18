@@ -46,6 +46,7 @@ void loop() {
 /************************* Funções **************************/
 
 void proximaRodada() {
+  //Testando o Fork do GitHub
   RandomSeed(analogRead(A0));
   int sorteio = random(4);
   sequencia[rodada] = sorteio;
